@@ -1,0 +1,7 @@
+#
+# PageTS for bev-bezirk-3-bootstrap
+#
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bev-bezirk-3_bootstrap/Configuration/TsConfig/Page/RTE.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bev-bezirk-3_bootstrap/Configuration/TsConfig/Page/TCEFORM.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bev-bezirk-3_bootstrap/Configuration/TsConfig/Page/TCEMAIN.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bev-bezirk-3_bootstrap/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts.tsconfig">

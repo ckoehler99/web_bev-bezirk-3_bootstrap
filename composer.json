@@ -1,0 +1,21 @@
+{
+    "name": "bev-bezirk-3/bev-bezirk-3-bootstrap",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "homepage": "https://www.bev-bezirk-3.de/",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "bk2k/bootstrap-package": "^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "bev-bezirk-3\\bev-bezirk-3Bootstrap\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "bev-bezirk-3_bootstrap"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+#############
+#### RTE ####
+#############
+RTE {
+    default {
+        preset = bev-bezirk-3_bootstrap
+    }
+}
