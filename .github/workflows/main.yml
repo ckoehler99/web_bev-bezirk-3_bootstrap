@@ -11,12 +11,14 @@ jobs:
     name: Build and Deploy
 
     steps:
-      - uses: actions/checkout@master
-
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          path: main
       - name: Publish
         uses: ckoehler99/ssh-scp-deploy@master
         with:
-          src: ./*
+          src: ./main/*
           host: ${{ secrets.SSH_HOST }}
           remote: ${{ secrets.SSH_DIR }}
           port: ${{ secrets.SSH_PORT }}
