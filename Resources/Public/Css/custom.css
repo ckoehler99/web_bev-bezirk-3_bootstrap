@@ -39,6 +39,22 @@ header .HeaderText{
         font-size:2em;
     }
 }
+
+@media (min-width: 992px) {
+  .backendlayout-3_columns .maincontent-wrap {
+    order: 2;
+    width: calc(100% / 12 * 4);
+  }
+  .backendlayout-3_columns .subcontent-wrap {
+    order: 3;
+    width: calc(100% / 12 * 4);
+  }
+  .backendlayout-3_columns .maincontent-wrap + .subcontent-wrap {
+    order: 1;
+    width: calc(100% / 12 * 4);
+  }
+}
+
 header .container .rootline{
   padding-left: 15px;
   margin-bottom: 30px;
@@ -277,6 +293,7 @@ ersetzt durch TSV-gruen #009120 und #0080FF TSVdunkelgruen
    background-color: #0080FF; /* BEVBlau*/
   }
 }
+
 .navbar-default .navbar-link {
   /*color: #777777; mittelgrau*/
     color: #1E021D; /* testfarbe dunkellila*/
@@ -475,19 +492,4 @@ footer .container .row  {
 .navbar-right ul.dropdown-menu {
 	left: 0;
 	right: auto;
-}
-
-@media (min-width: 992px) {
-  .backendlayout-3_columns .maincontent-wrap {
-    order: 2;
-    width: calc(100% / 12 * 4);
-  }
-  .backendlayout-3_columns .subcontent-wrap {
-    order: 3;
-    width: calc(100% / 12 * 4);
-  }
-  .backendlayout-3_columns .maincontent-wrap + .subcontent-wrap {
-    order: 1;
-    width: calc(100% / 12 * 4);
-  }
 }
