@@ -476,3 +476,18 @@ footer .container .row  {
 	left: 0;
 	right: auto;
 }
+
+@media (min-width: 992px) {
+  .backendlayout-3_columns .maincontent-wrap {
+    order: 2;
+    width: calc(100% / 12 * 4);
+  }
+  .backendlayout-3_columns .subcontent-wrap {
+    order: 3;
+    width: calc(100% / 12 * 4);
+  }
+  .backendlayout-3_columns .maincontent-wrap + .subcontent-wrap {
+    order: 1;
+    width: calc(100% / 12 * 4);
+  }
+}
