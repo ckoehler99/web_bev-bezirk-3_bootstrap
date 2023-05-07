@@ -40,21 +40,6 @@ header .HeaderText{
     }
 }
 
-@media (min-width: 992px) {
-  .backendlayout-3_columns .maincontent-wrap {
-    order: 2;
-    width: calc(100% / 12 * 4);
-  }
-  .backendlayout-3_columns .subcontent-wrap {
-    order: 3;
-    width: calc(100% / 12 * 4);
-  }
-  .backendlayout-3_columns .maincontent-wrap + .subcontent-wrap {
-    order: 1;
-    width: calc(100% / 12 * 4);
-  }
-}
-
 header .container .rootline{
   padding-left: 15px;
   margin-bottom: 30px;
