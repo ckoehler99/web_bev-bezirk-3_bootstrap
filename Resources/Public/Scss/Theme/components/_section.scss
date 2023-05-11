@@ -11,7 +11,8 @@
     --section-gap: #{$grid-gutter-width};
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
+//    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: var(--section-gap);
 }
 .section-column {
