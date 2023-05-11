@@ -67,17 +67,17 @@
     .backendlayout-3_columns {
         .maincontent-wrap {
             order: 2;
-            --section-gaps: 1;
+            --section-gaps: 4;
             --section-colspan: 4;
         }
         .subcontent-wrap {
             order: 3;
-            --section-gaps: 1;
+            --section-gaps: 4;
             --section-colspan: 4;
         }
         .maincontent-wrap + .subcontent-wrap {
             order: 1;
-            --section-gaps: 1;
+            --section-gaps: 4;
             --section-colspan: 4;
         }
     }
