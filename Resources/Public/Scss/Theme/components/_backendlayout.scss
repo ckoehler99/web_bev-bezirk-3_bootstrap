@@ -66,6 +66,8 @@
     .backendlayout-3_columns {
         .section-row {
             --section-columns: 22;
+        /* gap: var(--section-gap-y) var(--section-gap-x);
+            
         }
         .maincontent-wrap {
             order: 2;
