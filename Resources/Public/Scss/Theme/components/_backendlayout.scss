@@ -65,18 +65,18 @@
 @include media-breakpoint-up('lg') {
     .backendlayout-3_columns {
         .section-row {
-            --section-columns: 22;
+            --section-columns: 9;
             flex-wrap: nowrap;
         }
         .maincontent-wrap {
             order: 2;
             --section-gaps: 0;
-            --section-colspan: 7;
+            --section-colspan: 3;
         }
         .subcontent-wrap {
             order: 3;
             --section-gaps: 0;
-            --section-colspan: 7;
+            --section-colspan: 3;
         }
         .maincontent-wrap + .subcontent-wrap {
             order: 1;
