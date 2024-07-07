@@ -66,7 +66,7 @@
     .backendlayout-3_columns {
         .section-row {
             --section-columns: 22;
-            
+            flex-wrap: nowrap;
         }
         .maincontent-wrap {
             order: 2;
