@@ -66,13 +66,13 @@
     .backendlayout-3_columns {
         .maincontent-wrap {
             order: 2;
-            --section-gaps: 1;
-            --section-colspan: 3;
+            --section-gaps: 2;
+            --section-colspan: 6;
         }
         .subcontent-wrap {
             order: 3;
-            --section-gaps: 1;
-            --section-colspan: 4;
+            --section-gaps: 2;
+            --section-colspan: 3;
         }
         .maincontent-wrap + .subcontent-wrap {
             order: 1;
