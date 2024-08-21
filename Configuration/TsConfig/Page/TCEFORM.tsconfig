@@ -12,6 +12,7 @@ TCEFORM {
                 well = well
                 swRahmen = swRahmen
       	        hellblau = hellblau
+                lightgreen = lightgreen
                 }
             }    
         imageorient {
