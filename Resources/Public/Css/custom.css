@@ -81,46 +81,46 @@ footer .container .row {
   top: -1px;
 }
 .label-default {
-  background-color: #777777;
+  background-color: #777777; /* grau */
 }
 .label-default[href]:hover,
 .label-default[href]:focus {
   background-color: #5e5e5e;
 }
 .label-primary {
-  background-color: #428bca;
+  background-color: #428bca; /* taubenblau */
 }
 .label-primary[href]:hover,
 .label-primary[href]:focus {
-  background-color: #3071a9;
+  background-color: #3071a9; /* blau */
 }
 .label-success {
-  background-color: #5cb85c;
+  background-color: #5cb85c; /*grün */
 }
 .label-success[href]:hover,
 .label-success[href]:focus {
-  background-color: #449d44;
+  background-color: #449d44;  /* grün */
 }
 .label-info {
  /* background-color: #5bc0de; 23.10.18 WVe*/
 }
 .label-info[href]:hover,
 .label-info[href]:focus {
-  background-color: #31b0d5;
+  background-color: #31b0d5; /* türkis-blau */
 }
 .label-warning {
-  background-color: #f0ad4e;
+  background-color: #f0ad4e;  /* hellbraun */
 }
 .label-warning[href]:hover,
 .label-warning[href]:focus {
-  background-color: #ec971f;
+  background-color: #ec971f; /* etwas dunkler als background */
 }
 .label-danger {
-  background-color: #d9534f;
+  background-color: #d9534f; /* dunkel rot */
 }
 .label-danger[href]:hover,
 .label-danger[href]:focus {
-  background-color: #c9302c;
+  background-color: #c9302c; /* etwas dunkler als backgrund */
 }
 
 
@@ -176,7 +176,7 @@ a.text-success:hover {
 }
 /*WVE #f8f8f8 = fast weiss border: #e7e7e7 = etwas dunkleres weiss*/
 .navbar-default .navbar-brand {
-  /* WVE color: #777777; mittelgrau zu TSVgruen #009120 */
+  /* WVE TSVgruen #009120 */
   color: #009120;
   
 }
@@ -185,17 +185,15 @@ a.text-success:hover {
   color: #009120; /* TSVgruen #009120 */
   background-color: transparent;
 }
-/*WVE #5e5e5e = grau   #777777= helleres grau
-ersetzt durch TSV-gruen #009120 und #0080FF TSVdunkelgruen
-*/
+/*WVE #0080FF TSVdunkelgruen */
 .navbar-default .navbar-text {
-  /* WVE color: #777777; mittelgrau zu TSVweiss #FFFFFF*/
+  /* WVE TSVweiss #FFFFFF*/
   color: #ffffff;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    background-color: #FFFF00;
-    color: #FFC0CB;
+    background-color: #FFFF00; /* gelb */
+    color: #FFC0CB; /* rosa */
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -203,14 +201,13 @@ ersetzt durch TSV-gruen #009120 und #0080FF TSVdunkelgruen
   color: #FFFFFF;/* Textfarbe TSVweiss bei Mouse over*/
   background-color: transparent;
 }
-/*WVE #333333 = dunkelgrau ersetzt durch BEVBlau #0080FF*/
+/*WVE BEVBlau #0080FF*/
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #FFFFFF; /* Textfarbe weiss*/
   background-color: #0080FF; /* Hintergrund BEVBlau */
-  /* WVE color: #555555 mittelgrau   background-color: #e7e7e7 etwas dunkleres weiss;
-  ersetzt durch #0080FF BEVBlau und Textfarbe TSVgelb #FFFF00
+  /* WVE color: #0080FF BEVBlau und Textfarbe TSVgelb #FFFF00
   */
 }
 /*WVE #555555= grau  #e7e7e7 = etwas dunkleres weiss*/
@@ -236,52 +233,45 @@ ersetzt durch TSV-gruen #009120 und #0080FF TSVdunkelgruen
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #e7e7e7;
+  border-color: #e7e7e7;  
 }
 /*WVE #e7e7e7= etwas dunkleres weiss  ; #888888=mittelgrau*/
 
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  /*background-color: #e7e7e7; etwas dunkleres weiss
-               color: #555555;  grau*/
-  background-color: #0080FF; /* BEVBlau #0080FF*/ 
+  /*background-color: #e7e7e7; etwas dunkleres weiss  color: #555555;  grau*/
+  background-color: #0080FF; /* BEVBlau */ 
   color: #FFFF00; /* Schrift=TSVgelb*/
 }
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    background-color: #0080FF; /* BEVBlau #0080FF*/
+    background-color: #0080FF; /* BEVBlau */
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-   /* color: #333333; -> TSVdunkelgruen #0080FF*/
-  background-color: #0080FF; /*BEVBlau #0080FF*/
+   background-color: #0080FF; /*BEVBlau */
   }
-/*WVE #333333= dunkelgrau  ; #777777=mittelgrau
-    #333333 ersetzt durch #0080FF und #009120 TSV-gruen und TSV-dunkleres gruen
-    OK */
+
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
    color: #333333; /* dunkelgrau */
      background-color: #0080FF;  /* BEVBlau*/
   }
-  /* WVE color: #555555 mittelgrau   background-color: #e7e7e7 etwas dunkleres weiss;
-  ersetzt durch #0080FF TSVgruen und Textfarbe gelb #FFFF00
-  */
+  
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
-    /* color: #cccccc;  hellgrau*/
-    color: #cccccc;
+   color: #cccccc;  /* hellgrau*/
    background-color: #0080FF; /* BEVBlau*/
   }
 }
 
 .navbar-default .navbar-link {
   /*color: #777777; mittelgrau*/
-    color: #1E021D; /* testfarbe dunkellila*/
+    color: #1E021D; /* nur zum Test : dunkellila*/
 }
 .navbar-default .navbar-link:hover {
   color: #333333;/* #333333 dunkelgrau*/
