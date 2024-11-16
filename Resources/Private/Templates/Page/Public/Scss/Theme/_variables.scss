@@ -1,8 +1,8 @@
 //
 // Variables
 //
-$primary: #014876;
-$secondary: #72bf44;
+$primary: #014876;  // blau
+$secondary: #72bf44; // gift-grün
 
 $footer-sections: () !default;
 $footer-sections: map-merge(
@@ -36,16 +36,16 @@ $gray-800:                          #313131 !default;
 $gray-900:                          #212121 !default;
 $black:                             #000000 !default;
 
-$primary:                           #2a9d8f !default;
-$secondary:                         #212121 !default;
-$tertiary:                          #f4a261 !default;
-$quaternary:                        #e9c46a !default;
-$hellgruen:                         #bae1d3 !default;
-$default:                           #eaebec !default;
-$success:                           #5cb85c !default;
-$info:                              #319fc0 !default;
-$warning:                           #f0ad4e !default;
-$danger:                            #d9534f !default;
+$primary:                           #2a9d8f !default; // grün 
+$secondary:                         #212121 !default; // wie gray-900
+$tertiary:                          #f4a261 !default; // hell braun
+$quaternary:                        #e9c46a !default; // gelb braun
+$hellgruen:                         #bae1d3 !default; // hell grün
+$default:                           #eaebec !default; // fast weiß
+$success:                           #5cb85c !default; // grün
+$info:                              #319fc0 !default; // hell blau
+$warning:                           #f0ad4e !default; // hell braun
+$danger:                            #d9534f !default; // rot
 $lighter:                           $gray-100 !default;
 $light:                             $gray-200 !default;
 $dark:                              $gray-800 !default;
